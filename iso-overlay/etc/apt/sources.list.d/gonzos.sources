@@ -1,0 +1,6 @@
+Types: deb
+URIs: https://ttr-ind.github.io/gonzos-apt/
+Suites: excalibur
+Components: main
+Architectures: amd64
+Signed-By: /usr/share/keyrings/gonzos-archive-keyring.gpg

@@ -1,0 +1,8 @@
+Origin: GonzOS
+Label: GonzOS
+Suite: excalibur
+Codename: excalibur
+Architectures: amd64 source
+Components: main
+Description: GonzOS packages for Devuan Excalibur
+SignWith: yes
