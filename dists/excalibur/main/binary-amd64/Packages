@@ -1,0 +1,92 @@
+Package: detritusd
+Version: 1.0.0-1
+Architecture: amd64
+Maintainer: GonzOS Packaging <packages@gonzos.invalid>
+Installed-Size: 63
+Depends: runit
+Filename: pool/main/detritusd_1.0.0-1_amd64.deb
+Size: 18152
+MD5sum: 0bf6fe1f04aafb0254d561f3e6f05130
+SHA1: b6dd62d7f1646e7dc6650d501b1ef14b65592d2b
+SHA256: 28e5efd747672ca0e6fa10788b3db2859e96aecafbced512947da754cf1789ef
+Section: admin
+Priority: optional
+Description: PSI-driven ZRAM and memory-pressure policy daemon
+ detritusd manages ZRAM pressure using Linux PSI and process-madvise.
+ It ships and enables a runit service for Devuan Excalibur.
+
+Package: gonzo-system-monitor
+Version: 1.28.1-1
+Architecture: amd64
+Maintainer: GonzOS Packaging <packages@gonzos.invalid>
+Installed-Size: 13131
+Depends: libc6 (>= 2.38), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libglibmm-2.4-1t64 (>= 2.66.8), libgtk-3-0t64 (>= 3.21.5), libgtkmm-3.0-1t64 (>= 3.24.10), libgtop-2.0-11 (>= 2.37.90), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), librsvg2-2 (>= 2.14.4), libsigc++-2.0-0v5 (>= 2.2.0), libstdc++6 (>= 13.1), libxml2 (>= 2.7.4), dconf-gsettings-backend | gsettings-backend
+Conflicts: mate-system-monitor
+Replaces: mate-system-monitor
+Filename: pool/main/gonzo-system-monitor_1.28.1-1_amd64.deb
+Size: 2005880
+MD5sum: 4df6171c751e931888cdcedadc96e1d3
+SHA1: 2d3407ffa147bd29683743f6018ed21090ea47d0
+SHA256: 49dd20d49df8fec7ff9d66c27b421be1949f7cdb9e106c19e984ea2a493cbb47
+Section: x11
+Priority: optional
+Description: process and resource monitor with Gonzo integrations
+ Gonzo System Monitor is a MATE System Monitor fork with integration for
+ detritusd status information.
+
+Package: gonzocache
+Version: 1.0.0-1
+Architecture: amd64
+Maintainer: GonzOS Packaging <packages@gonzos.invalid>
+Installed-Size: 51
+Depends: runit
+Filename: pool/main/gonzocache_1.0.0-1_amd64.deb
+Size: 10948
+MD5sum: d5b6ab56028a712cb1c6b37b0c9ee887
+SHA1: 8d9f1ae28161b89a92f66cfa69748807622d37e6
+SHA256: def0be36fda30c95b8403c1b83bf49ad9d96332abe784c08493a06575cc65224
+Section: admin
+Priority: optional
+Description: login-time application cache warmer and tracker
+ gonzocache tracks application launches and warms frequently used executables
+ and mapped files into the page cache.  It includes a runit tracker service
+ and a desktop-login preload entry.
+
+Package: numate
+Version: 1.0.0-1
+Architecture: amd64
+Maintainer: GonzOS Packaging <packages@gonzos.invalid>
+Installed-Size: 34106
+Depends: libc6 (>= 2.34), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.76.0), libgtk-3-0t64 (>= 3.21.6), libx11-6, mate-session-manager, numate-settings
+Recommends: nemo, engrampa, pluma
+Conflicts: mate-panel
+Replaces: mate-panel
+Provides: mate-panel
+Filename: pool/main/numate_1.0.0-1_amd64.deb
+Size: 8397096
+MD5sum: 3d8101c4944518f7c351f733977dead5
+SHA1: e4b6223dedbc35794885c1a65853ff9a43f7c0a7
+SHA256: 8e0cb4ce7e773755a7a044dd15cbef8f0903f8c3b99419424ba921bc69ae229c
+Section: x11
+Priority: optional
+Description: NuMATE desktop assets and Axiom panel
+ NuMATE provides its Axiom GTK panel, desktop assets, wallpaper helper and
+ Nemo actions for a modernised MATE desktop on Devuan.
+
+Package: numate-settings
+Version: 1.0.0-1
+Architecture: amd64
+Maintainer: GonzOS Packaging <packages@gonzos.invalid>
+Installed-Size: 158
+Depends: libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.13.7), libmate-desktop-2-17t64 (>= 1.6.1), libmatemixer0 (>= 1.10.0), libnm0 (>= 1.0.0), libx11-6, libxml2 (>= 2.7.4), libxrandr2 (>= 2:1.2.99.3), mate-power-manager, network-manager
+Filename: pool/main/numate-settings_1.0.0-1_amd64.deb
+Size: 54060
+MD5sum: 101b0e65afdcf003a5df9255b156991a
+SHA1: 8dae318237e283b84e03d87cc589e1fc5c619da6
+SHA256: bdd78ebcfaf5707673410b22e2cc1505dd79f07db1fd9dd60098dc0fbf974e79
+Section: x11
+Priority: optional
+Description: unified settings application for the NuMATE desktop
+ NuMate Settings consolidates the MATE settings panels into one GTK
+ application for the NuMATE desktop.
+

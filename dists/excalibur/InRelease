@@ -1,0 +1,41 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: GonzOS
+Label: GonzOS
+Suite: excalibur
+Codename: excalibur
+Architectures: amd64
+Components: main
+Description: GonzOS packages for Devuan Excalibur
+Date: Mon, 28 Sep 2026 12:59:17 +0000
+MD5Sum:
+ 155663f2afe9d04fcc787267d1d6b34b              192 Release
+ 7c094e8a4b4dfa49af31a335215d69f9             4079 main/binary-amd64/Packages
+ 885446918eb4f71e71252d1dd21a2db4             1645 main/binary-amd64/Packages.gz
+SHA1:
+ 687d75496a38afea6341d37c8a80b3372d3816f7              192 Release
+ c6296688ee1f5789ea92b8f096d8474fc858e0a5             4079 main/binary-amd64/Packages
+ 83ac2b341b1addd532c2675ef3165fb2e5c163e3             1645 main/binary-amd64/Packages.gz
+SHA256:
+ 6c5ff9353418e96695f70d9961af2157bac08818d317dc583bd7006ce4a5099a              192 Release
+ 5cc8c3384d52da569056ae4d13c326912e4289fc67cdfe25fd984b359b0f08dd             4079 main/binary-amd64/Packages
+ 65ea2ad69c5725ef69560e5828d7eccedd200f26a059df50f7b402a926c9389f             1645 main/binary-amd64/Packages.gz
+SHA512:
+ 0d7dbeb53f575b9e9d8576ce309f34d4fcdf9d625c51d048572817e80fb6ccd881ac50fef91dc07af634a52dcc746781554dd2d6fbc3b641553bd23b00bfe234              192 Release
+ e9013feede4e3ea9d39b265feeb4af07890bb8d99ead87f4d3b53d607335abf765338896314265e89c36dd5d460a7ec366a17859275654f868b1030a52e5386d             4079 main/binary-amd64/Packages
+ 8c4c6cb94bcd2e9b58bc276924cce968298c1290651490df0010c4fe5d526e2678c4c25ba4fd6e77b3c6731ea5b9d11e898c68183bc8a6f8224198b9acddcbd5             1645 main/binary-amd64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEnMdgGCJylUxf3n46vTU+uzH6K5kFAmq6ZKUACgkQvTU+uzH6
+K5lO3wwAo7ysuZL1ZOyP02gl2EEltpwzuS7l82zNFWf3UVeHq0tWrdsVkHqgC3so
+VRgT5++OoMWo6iOKwAz4FCCfWpTqc2n37/D0GvAvOT5ZKxOz1tB7rC3AizEVYYun
+UB1jydtaREyq2662+A4jU6k32mJScVm6QEDpvMOg/MH7qgal41a6Cvya7xonLYiT
+ZT092L3neEbhTXaFqfQjwnp2hMCpMsRI1dACb7wr+X1/dBpinMjaJza49eizGE+1
+oOSYJPryBCmCOMwNlRGPG8TkzFaXG+m8U7FEpQxCCoxZYbLVZ1YtH2mdNlQoFJ+H
+UGKgTo7Td/KSicRcqt0NXirrQhrzwoxxMHqOBeRPHkJ4jOzjtHEmocZPi8indIJq
+qMxjt6k2A2ze59snpBqGy5f4jxawPQjkEfYn2mcuY7LOh6rXoZB6PWJeRfyDY1in
+tR1vpFk1omSMjJXER9w7+JzyHpqPak1gO19qhDgkwL2fe05fHp3AqSY6GaoPLGr9
+pntdGJJf
+=qZOc
+-----END PGP SIGNATURE-----
