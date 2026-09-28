@@ -2,7 +2,7 @@
 # Install GonzOS packages on the ISO target or an existing Devuan system.
 set -eu
 
-archive_url=${GONZOS_APT_URL:-https://ttr-ind.github.io/gonzos-apt}
+archive_url=${GONZOS_APT_URL:-https://raw.githubusercontent.com/TTR-IND/gonzos-apt/main}
 keyring=/usr/share/keyrings/gonzos-archive-keyring.gpg
 source_file=/etc/apt/sources.list.d/gonzos.sources
 

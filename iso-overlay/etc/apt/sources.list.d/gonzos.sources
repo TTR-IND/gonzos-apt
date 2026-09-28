@@ -1,5 +1,5 @@
 Types: deb
-URIs: https://ttr-ind.github.io/gonzos-apt/
+URIs: https://raw.githubusercontent.com/TTR-IND/gonzos-apt/main/
 Suites: excalibur
 Components: main
 Architectures: amd64
